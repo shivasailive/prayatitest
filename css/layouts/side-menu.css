@@ -63,7 +63,7 @@ The content `<div>` is where all your content goes.
     .header h1 {
         margin: 0.2em 0;
         font-size: 3em;
-        font-weight: 300;
+        font-weight: bold;
     }
      .header h2 {
         font-weight: 300;
@@ -332,5 +332,5 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     float: left;
 }
 .logoContent{
-	margin: auto; width: 310px;
+	margin: auto; width: 315px;
 }
