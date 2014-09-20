@@ -66,12 +66,12 @@ The content `<div>` is where all your content goes.
         font-weight: bold;
     }
      .header h2 {
+        color: #ccc;
         font-weight: 300;
-        color: white;
         padding: 0;
         margin-top: 0;
     }
-.indexHeaderImg{
+/*.indexHeaderImg{
 	background-image: url('../../Images/header.jpg');
 	background-position: 0 796px;
 }
@@ -82,7 +82,7 @@ The content `<div>` is where all your content goes.
 .contactHeaderImg{
 	background-image: url('../../Images/contactheader.jpg');
 	background-position: 0 722px;
-}
+}*/
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
