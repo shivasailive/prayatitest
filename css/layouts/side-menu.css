@@ -46,7 +46,7 @@ The content `<div>` is where all your content goes.
 */
 .content {
     margin: 0 auto;
-   
+    padding: 0 2em;
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
@@ -56,9 +56,9 @@ The content `<div>` is where all your content goes.
      margin: 0;
      color: #333;
      text-align: center;
- 
+     /*padding: 2.5em 2em 0;*/
+	 padding: 2.5em 0 0;
      border-bottom: 1px solid #eee;	 
-	 background-size: 100% 321px;
  }
     .header h1 {
         margin: 0.2em 0;
@@ -73,26 +73,18 @@ The content `<div>` is where all your content goes.
     }
 .indexHeaderImg{
 	background-image: url('../../Images/header.jpg');
-	 background-position: 0 898px;    
-}
-.resourcesHeaderImg{
-	background-image: url('../../Images/resourcesheader.jpg');
-	 background-position: 0 898px;    
-}
-.careersHeaderImg{
-	background-image: url('../../Images/careersheader.jpg');
-	 background-position: 0 898px;    
+	background-position: 0 796px;
 }
 .servicesHeaderImg{
 	background-image: url('../../Images/servicesheader.jpg');
-	 background-position: 0 922px;    
+	background-position: 0 722px;
 }
-.contactHeaderImg {
-    background-image: url("../../Images/contactheader.jpg");
-     background-position: 0 948px;    
+.contactHeaderImg{
+	background-image: url('../../Images/contactheader.jpg');
+	background-position: 0 722px;
 }
 .content-subhead {
-    margin: 35px 0 20px 0;
+    margin: 50px 0 20px 0;
     font-weight: 300;
     color: #2BAFD6;
 }
@@ -341,7 +333,4 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 }
 .logoContent{
 	margin: auto; width: 315px;
-}
-.careers{
-	color:#2bafd6
 }
